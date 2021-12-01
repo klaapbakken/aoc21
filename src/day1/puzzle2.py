@@ -12,11 +12,14 @@ input_data = list(map(int, input_data))
 output = (
     pd.DataFrame(
         {
-            "1": input_data[:-2],
-            "2" : input_data[1:-1],
-            "3" : input_data[2:],
-        },
+            "one": input_data
+        }
     )
+    .assign(
+        two = lambda x: x["one"].shift(-1),
+        three = lambda x: x["two"].shift(-1)
+    )
+    .dropna()
     .transpose()
     .sum(axis=0)
     .to_frame()
