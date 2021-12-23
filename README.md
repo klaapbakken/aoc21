@@ -7,3 +7,7 @@ I'll add some screenshots of my the solutions I wanna highlight here. There migh
 ## Day 4 
 ![Day 4](https://pbs.twimg.com/media/FFxWqraVIAcmUZO?format=png&name=900x900)
 
+## Day 7
+
+![Day 7](https://pbs.twimg.com/media/FGCLeZWUUAEpJO4?format=png&name=large)
+
